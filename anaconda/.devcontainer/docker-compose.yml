@@ -1,0 +1,9 @@
+version: '3'
+services:
+  anaconda:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - ANACONDA_FILE_NAME=Anaconda3-2024.02-1-Linux-x86_64.sh
+        - PYTHON_VERSION=3.11

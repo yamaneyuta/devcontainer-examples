@@ -1,0 +1,6 @@
+{
+    "python.defaultInterpreterPath": "~/anaconda3/envs/pythonenv/bin/python",
+    "jupyter.kernels.excludePythonEnvironments": [
+        "~/anaconda3/envs/pythonenv/bin/python"
+    ],
+}
